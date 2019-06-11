@@ -1,0 +1,33 @@
+<div class="main"> 
+    <div class="sidenav">
+        <!-- <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+        <button routerLink="/customers">Customers</button> <a href="#customers">Customers</a> -->
+      <li routerLink="/customers">customers</li>
+      <li routerLink="/orders">Orders</li>
+      <li routerLink="/exe1">Exercise1</li>    
+      <li routerLink="/Employeeinfo">info</li>      
+      </div>     
+</div>    
+
+<p></p>
+
+<div class="row">  
+   <h1>{{result}}  Search</h1>  
+   <div class="input-group input-group-lg">  
+    <span class="input-group-addon glyphicon glyphicon-search" id="sizing-addon1"></span>  
+    <input #input1 type="text" class="form-control" placeholder="Search Product Name" aria-describedby="sizing-addon1">  
+  </div>  
+  <br>  
+  <button (click)="onClick(input1.value)">Search</button>
+
+  <p>
+      <a href="parentc">Parent Component</a>
+  </p>
+
+
+<P></P>
+
+</div>

@@ -1,5 +1,6 @@
 {
   "extends": "../tsconfig.json",
+  "Access-Control-Allow-Origin": "*",
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "types": []
